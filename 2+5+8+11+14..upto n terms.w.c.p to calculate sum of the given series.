@@ -1,0 +1,22 @@
+2+5+8+11+14..upto n terms.w.c.p to calculate sum of the given series.
+#include <stdio.h>
+
+int main()
+{
+    int n, i = 1, term = 2, sum = 0;
+
+    printf("Enter the number of terms: ");
+    #include <stdio.h>
+    scanf("%d", &n);
+
+    while (i <= n)
+    {
+        sum =sum+term;
+        term = term + 3;
+        i++;
+    }
+
+    printf("Sum of the series = %d\n", sum);
+
+    return 0;
+}
